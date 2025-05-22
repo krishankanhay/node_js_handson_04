@@ -17,7 +17,7 @@ function getEmail(request, response) {
             user_email.push(each_email);
         }
     }
-    console.log("user email data = ", user_email.length);
+    // console.log("user email data = ", user_email.length); // ---
     return response.json(user_email);
 }
 

@@ -18,15 +18,15 @@ const USER_DATA = [
         password: 'Vishal@123'
     },
     {
-        user: "Niraz",
+        user: "Niraj",
         subject: "youtube - watch new movies"
     },
     {
-        user: "Niraz",
+        user: "Niraj",
         subject: "instagram"
     },
     {
-        user: "Niraz",
+        user: "Niraj",
         subject: "netflix - watch new movies"
     },
     {

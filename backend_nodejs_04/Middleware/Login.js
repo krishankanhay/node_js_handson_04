@@ -18,7 +18,7 @@ function LoginFunction(request, response) {
         return response.status(400).send("user is not registered");
     }
     const isPasswordCorrect = CheckPassword(login_info.password, user_found.password);
-    console.log(user_found.password); // ---
+    // console.log(user_found.password); // ---
     if (!isPasswordCorrect) {
         return response.status(400).send('password is not correct');
     }
